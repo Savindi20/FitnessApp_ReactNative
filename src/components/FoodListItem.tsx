@@ -1,6 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
-
 const FoodListItem = ({ item }) => {
   return (
     <View style={styles.container}>
@@ -17,7 +16,7 @@ const FoodListItem = ({ item }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'gainsboro',
+    backgroundColor: '#f6f6f8',
     padding: 10,
     borderRadius: 5,
     flexDirection: 'row',
@@ -25,5 +24,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
 export default FoodListItem;

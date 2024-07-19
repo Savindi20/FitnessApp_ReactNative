@@ -31,7 +31,13 @@
    stepzen start 
 ```
 
-5. Start the app
+5. install graphql
+
+```bash
+   npm install @apollo/client graphql
+```
+
+6. Start the app
 
 ```bash
    npm run web

@@ -10,8 +10,8 @@ import {
 import FoodListItem from '../components/FoodListItem';
 import { useState } from 'react';
 import { gql, useLazyQuery } from '@apollo/client';
+import { Camera, useCameraPermissions } from 'expo-camera';
 import { Ionicons } from '@expo/vector-icons';
-import { Camera, useCameraPermissions} from 'expo-camera';
 
 const query = gql`
   query search($ingr: String, $upc: String) {
